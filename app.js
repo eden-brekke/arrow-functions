@@ -247,4 +247,4 @@ console.log(joe.scopeArrow());
 // 2. What is "this" when joe.scopeArrow() is invoked?
 //Window Object with many many attributes
 // 3. Explain why "this" is different when an arrow function is used.
-// This is different when you use the scopeArrow because it's written with an arrow function. In arrow functions 'this' is referring to the global scope and loses any reference to the object. So in this case it looks like it's targetting the global scope object of the entire window of the browser.
+// This is different when you use the scopeArrow because it's written with an arrow function. In arrow functions 'this' is referring to the global scope and loses any reference to the object. So in this case it looks like it's targeting the global scope object of the entire window of the browser.
