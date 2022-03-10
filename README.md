@@ -34,5 +34,8 @@ Why does this happen? It happens because arrow functions retain the `this` value
 1. Submit a link to your PR. You can link to a pull request even if the pull request is already merged or closed.
 1. Add a comment in your Canvas assignment which includes the following:
     - A question within the context of today's lab assignment
+       - I didn't have too many questions in regards to this lab, I was a little confused about refactoring the functions into arrow functions in the context of knowing that arrow functions weren't meant for that purpose. However, through working through it I think I understand the purpose. Since some of them didn't return a straight "syntax error" within the console instead just didn't properly call aspects of the code that it would, had it been a normal function declaration. This will help down the line in identifying errors when we're using arrow functions in other programs, and may forget the small limitations of them.
     - An observation about the lab assignment, or related 'Ah-hah!' moment
+        - I really liked the scope versus scopeArrow calls at the end of the lab where within the arrow function usage of the term 'this' you see the console log call to the window object. It really solidified that when using arrow functions you lose the reference to the object and can no longer use 'this' effectively. 
     - How long you spent working on this assignment
+        - It took me about an hour to work through everything within the lab. 
